@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 16px 0;
+    color: #fff;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 450px;
+    margin-right: 30px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 40px;
+    font-style: italic;
+    color: blueviolet;
+    border-bottom: 1px solid blueviolet;
+    padding-bottom: 10px;
+}
+
+
+.lista-macacos li {
+    list-style: none;
+    max-width: 30%;
+}
+
+.item-central {
+    margin: 0;
+}
+
+.lista-macacos li img {
+    max-width: 100%;
+    width: auto;
+    height: 200px;
+}
+
+.lista-macacos li h3 {
+    margin: 16px 0;
+    text-transform: uppercase;
+}
+
+.lista-macacos li button {
+    display: block;
+    width: 90%;
+    padding: 8px 0;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.lista-macacos li strong {
+    margin: 16px 0;
+    display: block;
+}
+
+.item-central button {
+    width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+
+.conteudo-inicial  {
+    display: block;
+}
+
+.container img {
+    margin-right: 0;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 90%;
+}
+
+#sobre-a-loja img {
+    max-width: 100%;
+    margin-right: 0;
+}
+
+.lista-macacos li img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.lista-macacos {
+    display: block;
+}
+
+}
