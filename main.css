@@ -54,10 +54,15 @@ section h2 {
     padding-bottom: 10px;
 }
 
+.lista-macacos {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
 
 .lista-macacos li {
     list-style: none;
-    max-width: 30%;
 }
 
 .item-central {
@@ -128,4 +133,30 @@ section h2 {
     display: block;
 }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.container {
+    max-width: 90%;
+}
+
+.conteudo-inicial  {
+    display: block;
+}
+.conteudo-inicial p {
+    font-size: large;
+}
+
+.conteudo-inicial img {
+    max-width: 1024px;
+}
+
+#sobre-a-loja img {
+    max-width: 90%;
+    
+}
+
+.lista-macacos {
+    grid-template-columns: repeat(2, 51%);
+}
 }
